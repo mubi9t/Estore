@@ -1,0 +1,1563 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.header {
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    height: 68px;
+}
+
+.bar p {
+    margin-left: 80%;
+    color: white;
+    margin-top: -40px;
+    display: none;
+    font-size: 14px;
+}
+
+.flag img {
+    width: 27px;
+    height: 16px;
+    position: relative;
+    top: 25px;
+    margin-left: 5%;
+}
+
+.flag h4 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-left: 8%;
+    margin-top: 2PX;
+}
+
+.flag p {
+    color: white;
+    font-size: 14px;
+    margin-left: 5%;
+    position: relative;
+    top: -20px;
+    margin-left: 13%;
+    font-family: "Poppins", sans-serif;
+}
+
+.header ul li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.header ul {
+    list-style: none;
+    margin-left: 57%;
+}
+
+.header ul li {
+    display: inline;
+    padding-left: 25px;
+    position: relative;
+    top: -40px;
+}
+
+.logo {
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.nav-bar ul li a:hover {
+    color: red;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.nav-bar ul {
+    margin-left: 22%;
+    margin-top: -25px;
+}
+
+.nav-bar input[type=text] {
+    border: 1px solid silver;
+    padding: 15px;
+    border-radius: 50px;
+    margin-left: 55%;
+    position: relative;
+    top: -34px;
+}
+
+.icon {
+    margin-left: 72%;
+    margin-top: -82px;
+}
+
+.icon img {
+    border: 1px solid silver;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #2577fd;
+    background-color: #2577fd;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-left: 85%;
+    position: relative;
+    top: -43px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid rgb(207, 229, 238);
+    background-color: rgb(207, 229, 238);
+}
+
+.png img {
+    width: 734px;
+    height: 740px;
+}
+
+.discount h3 {
+    font-size: 40px;
+    font-style: italic;
+    font-family: "Yellowtail", cursive;
+    color: #2577FD;
+}
+
+.discount h1 {
+    font-size: 100px;
+    font-family: "Playfair Display", serif;
+    margin-top: -20px;
+}
+
+.discount p {
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+    margin-top: -20px;
+}
+
+.discount a {
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid #2577FD;
+    background-color: #2577FD;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 10px;
+}
+
+.discount {
+    margin-left: 55%;
+    margin-top: -500px;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.card h1 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    margin-left: 38%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.pic {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.text-1 a {
+    text-decoration: none;
+    border: 1px solid gold;
+    background-color: gold;
+    padding: 10px;
+    color: black;
+    border-radius: 50px;
+}
+
+.text-1 p {
+    font-family: "Yellowtail", cursive;
+    color: #2577FD;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.text-3 a {
+    text-decoration: none;
+    border: 1px solid gold;
+    background-color: gold;
+    padding: 10px;
+    color: black;
+    border-radius: 50px;
+}
+
+.text-3 p {
+    font-family: "Yellowtail", cursive;
+    color: #2577FD;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+.text-3 h2 {
+    font-size: 26px;
+}
+
+.text-1 h2 {
+    font-size: 26px;
+}
+
+.text-1 {
+    margin-left: 50%;
+    margin-top: -220px;
+}
+
+.text-3 {
+    margin-left: 50%;
+    margin-top: -220px;
+}
+
+.text-2 h3 {
+    font-family: "Yellowtail", cursive;
+    color: #2577FD;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.text-2 h2 {
+    font-size: 26px;
+    margin-top: -10px;
+    font-family: "Playfair Display", serif;
+}
+
+.text-2 p {
+    font-size: 16px;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.text-2 {
+    margin-left: 50%;
+    margin-top: -220px;
+}
+
+.top h1 {
+    margin-left: 12%;
+    font-size: 42px;
+    margin-top: 200px;
+}
+
+.star {
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.card-table p {
+    margin-left: 20%;
+}
+
+.card-table h4 {
+    margin-left: 28%;
+    margin-bottom: 20px;
+}
+
+.star img {
+    width: 20px;
+    height: 20px;
+}
+
+.card {
+    margin-top: 0px;
+}
+
+.cap img {
+    width: 95%;
+    height: 400px;
+}
+
+.card-table h4 span {
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.product {
+    border: 1px solid rgb(252, 224, 229);
+    width: 80%;
+    height: 400px;
+    background-color: rgb(252, 224, 229);
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 250px;
+}
+
+.best img {
+    margin-left: 10%;
+    margin-top: -154px;
+    height: 80vh;
+}
+
+.find {
+    margin-left: 35%;
+    margin-top: -350px;
+}
+
+.find h1 {
+    font-size: 48px;
+}
+
+.find p {
+    color: gray;
+    font-size: 18px;
+}
+
+.find a {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.shirt img {
+    margin-top: 50px;
+    margin-left: 80%;
+    width: 100px;
+    height: 100px;
+}
+
+.collection {
+    margin-top: 390px;
+}
+
+.pant {
+    margin-left: 5%;
+}
+
+.pant h1 {
+    font-size: 48px;
+}
+
+.pant p {
+    font-size: 18px;
+    color: gray;
+}
+
+.pant a {
+    text-decoration: none;
+    border: 1px solid #2577FD;
+    background-color: #2577FD;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+    position: relative;
+    top: -240px;
+}
+
+.pant img {
+    margin-top: 130px;
+    margin-left: -120px;
+}
+
+.denim img {
+    margin-left: 40%;
+    margin-top: -730px;
+}
+
+.suit {
+    margin-left: 75%;
+    position: relative;
+    top: -650px;
+}
+
+.menz h3 {
+    position: relative;
+    top: 90px;
+}
+
+.menz img {
+    margin-left: 40%;
+}
+
+.winter h3 {
+    position: relative;
+    top: 110px;
+    border: 1px solid #2577FD;
+    background-color: #2577FD;
+    width: 110px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.winter img {
+    margin-left: 40%;
+}
+
+.jacket h3 {
+    position: relative;
+    top: 100px;
+}
+
+.jacket img {
+    margin-left: 40%;
+}
+.Email{
+    border: 1px solid rgb(155, 213, 236);
+    background-color: rgb(155, 213, 236);
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.latest{
+    margin-left: 10%;
+    margin-top: 110px;
+}
+.latest h1{
+ font-size: 48px;
+}
+.latest p{
+    font-size:24px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.here{
+    margin-left: 50%;
+    margin-top: -105px;
+}
+#text{
+    width: 37%;
+    padding: 12px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+.here a{
+    text-decoration: none;
+    border: 1px solid #2577fd;
+    background-color: #2577fd;
+    padding: 11px 20px;
+    border-radius: 50px;
+    color: white;
+    margin-left: -40px;
+}
+.box{
+    margin-top: 50px;
+}
+.box i{
+    font-size: 42px;
+   }
+   .box h2{
+       font-size: 20px;
+   }
+   .box p{
+       font-size:16px ;
+       color: gray;
+   }
+   .grid {
+       display: grid;
+       grid-template-columns: 15% 15% 15%;
+       justify-content: space-evenly;
+       margin-top: 140px;
+   }
+   .image{
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+   margin-top: 120px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12%;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-left: 5%;
+}
+.bio{
+    margin-top: 20px;
+}
+.bio p{
+    width: 100%;
+}
+.footer a{
+    text-decoration: none;
+    color:gray;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.footer a:hover{
+    color: blue;
+}
+.face{
+   margin-left: 70%;
+   margin-top: -25px;
+}
+.face i{
+    padding-left: 10px;
+}
+.face i:hover{
+    color: blue;
+}
+.colirab p{
+    color: gray;
+    font-size: 18px;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+@media (max-width:1636px) and (min-width:1455px) {
+    .best img {
+        margin-left: 10%;
+        margin-top: -154px;
+        height: 75vh;
+    }
+}
+
+@media (max-width:2560px) and (min-width:1636px) {
+    .best img {
+        margin-left: 10%;
+        margin-top: -158px;
+        height: 43vh;
+    }
+
+    .suit {
+        margin-left: 65%;
+        position: relative;
+        top: -650px;
+    }
+
+    .menz img {
+        margin-left: 20%;
+    }
+
+    .winter img {
+        margin-left: 23%;
+    }
+
+    .jacket img {
+        margin-left: 20%;
+    }
+
+    .pant {
+        margin-left: 15%;
+    }
+    .image{
+        margin-left: 10%;
+    }
+    .bio{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:1454px) and (min-width:1310px) {
+    .best img {
+        margin-left: 10%;
+        margin-top: -155px;
+        height: 77vh;
+    }
+    .bio{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:2650px) and (min-width:1310px) {
+    .png img {
+        width: 44%;
+        height: 100vh;
+    }
+}
+
+@media (max-width:1309px) and (min-width:1200px) {
+    .png img {
+        width: 692px;
+        height: 652px;
+    }
+
+    .discount p {
+        font-size: 20px;
+        font-style: italic;
+        font-family: "Playfair Display", serif;
+        margin-top: -20px;
+    }
+
+    .discount h1 {
+        font-size: 100px;
+        font-family: "Playfair Display", serif;
+        margin-top: -15px;
+    }
+
+    .discount a {
+        position: relative;
+        top: 10px;
+    }
+
+    .best img {
+        margin-left: 10%;
+        margin-top: -89px;
+        height: 75vh;
+    }
+
+    .jacket img {
+        margin-left: 50%;
+    }
+
+    .winter img {
+        margin-left: 50%;
+    }
+
+    .menz img {
+        margin-left: 50%;
+    }
+    .here{
+        margin-left: 60%;
+        margin-top: -115px;
+    }
+    #text {
+        width: 60%;
+        padding: 12px;
+        border-radius: 50px;
+        border: 1px solid white;
+    }
+}
+
+@media (max-width:1199px) and (min-width:991px) {
+    .nav-bar input[type=text] {
+        border: 1px solid silver;
+        padding: 15px;
+        border-radius: 50px;
+        margin-left: 55%;
+        position: relative;
+        top: -34px;
+        display: none;
+    }
+
+    .icon {
+        margin-left: 72%;
+        margin-top: -35px;
+    }
+
+    .png img {
+        width: 630px;
+        height: 653px;
+    }
+
+    .discount h1 {
+        font-size: 60px;
+        font-family: "Playfair Display", serif;
+        margin-top: -10px;
+    }
+
+    .discount p {
+        font-size: 20px;
+        font-style: italic;
+        font-family: "Playfair Display", serif;
+        margin-top: -15px;
+    }
+
+    .discount {
+        margin-left: 65%;
+        margin-top: -500px;
+    }
+
+    .discount a {
+        position: relative;
+        top: 10px;
+    }
+
+    .pic {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 440px;
+        justify-content: space-evenly;
+    }
+
+    .text-1 h2 {
+        font-size: 40px;
+    }
+
+    .text-1 p {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 30px;
+        margin-top: -5px;
+    }
+
+    .text-3 h2 {
+        font-size: 40px;
+    }
+
+    .text-3 p {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 30px;
+        margin-top: -5px;
+    }
+
+    .text-2 h3 {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    .text-2 h2 {
+        font-size: 40px;
+        margin-top: -20px;
+        font-family: "Playfair Display", serif;
+        margin-left: 5%;
+    }
+
+    .best img {
+        margin-left: 10%;
+        margin-top: -89px;
+        height: 75vh;
+    }
+
+    .jacket img {
+        margin-left: 50%;
+    }
+
+    .winter img {
+        margin-left: 50%;
+    }
+
+    .menz img {
+        margin-left: 50%;
+    }
+    .here{
+        margin-left: 60%;
+        margin-top: -110px;
+    }
+    #text {
+        width: 60%;
+        padding: 12px;
+        border-radius: 50px;
+        border: 1px solid white;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 14% 15% 17% 20%;
+        justify-content: space-around;
+        margin-top: 90px;
+        margin-left: 5%;
+    }
+    .bio{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:990px) and (min-width:768px) {
+    .header {
+        border: 1px solid black;
+        background-color: black;
+        width: 95%;
+        height: 50px;
+        margin-left: 3%;
+        position: relative;
+        top: 53px;
+    }
+
+    .logo {
+        margin-top: -12px;
+        margin-left: 9%;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .flag {
+        display: none;
+    }
+
+    .bar p {
+        display: block;
+        position: relative;
+        top: 60px;
+
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .nav-bar input[type=text] {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .heart {
+        display: none;
+    }
+
+    .icon {
+        margin-left: 72%;
+        margin-top: -35px;
+    }
+
+    .png img {
+        width: 480px;
+        height: 652px;
+        display: block;
+    }
+
+    .discount h1 {
+        font-size: 50px;
+        font-family: "Playfair Display", serif;
+        margin-top: -6px;
+    }
+
+    .discount p {
+        font-size: 20px;
+        font-style: italic;
+        font-family: "Playfair Display", serif;
+        margin-top: 3px;
+    }
+
+    .discount {
+        margin-left: 65%;
+        margin-top: -500px;
+    }
+
+    .discount a {
+        position: relative;
+        top: 10px;
+    }
+
+    .card h1 {
+        font-size: 37px;
+        font-family: "Playfair Display", serif;
+        margin-left: 38%;
+    }
+
+    .pic {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: space-evenly;
+    }
+
+    .img-1 img {
+        margin-bottom: 150px;
+    }
+
+    .img-2 img {
+        margin-bottom: 180px;
+    }
+
+    .img-3 img {
+        margin-bottom: 90px;
+    }
+
+    .text-2 {
+        position: relative;
+        top: -70px;
+    }
+
+    .text-1 {
+        position: relative;
+        top: -50px;
+    }
+
+    .text-1 h2 {
+        font-size: 40px;
+    }
+
+    .text-1 p {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 30px;
+        margin-top: -5px;
+    }
+
+    .text-3 h2 {
+        font-size: 40px;
+    }
+
+    .text-3 p {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 30px;
+        margin-top: -5px;
+    }
+
+    .text-2 h3 {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    .text-2 h2 {
+        font-size: 40px;
+        margin-top: -20px;
+        font-family: "Playfair Display", serif;
+    }
+
+    .table {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .best img {
+        margin-left: 10%;
+        margin-top: -89px;
+        height: 75vh;
+    }
+
+    .find h1 {
+        font-size: 30px;
+    }
+
+    .shirt img {
+        display: none;
+    }
+
+    .denim img {
+        display: none;
+    }
+
+    .suit {
+        margin-left: 60%;
+        position: relative;
+        top: -500px;
+    }
+
+    .winter {
+        margin-top: -70px;
+    }
+
+    .jacket {
+        margin-top: -70px;
+    }
+    .latest h1 {
+        font-size: 38px;
+    }
+    .here{
+        margin-left: 60%;
+        margin-top: -105px;
+    }
+    #text {
+        width: 60%;
+        padding: 12px;
+        border-radius: 50px;
+        border: 1px solid white;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: space-evenly;
+    }
+    .image {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: space-evenly;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: space-around;
+    }
+    .colirab p {
+        color: gray;
+        font-size: 18px;
+        margin-top: 150px;
+        margin-left: 13%;
+        width: 49%;
+    }
+    .face{
+        margin-left: 60%;
+        margin-top: -55px;
+     }
+}
+
+@media (max-width:767px) and (min-width:425px) {
+    .header {
+        border: 1px solid black;
+        background-color: black;
+        width: 95%;
+        height: 50px;
+        margin-left: 3%;
+        position: relative;
+        top: 73px;
+    }
+
+    .icon {
+        margin-left: 72%;
+        margin-top: -35px;
+    }
+
+    .logo {
+        margin-top: -12px;
+        margin-left: 9%;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .flag {
+        display: none;
+    }
+
+    .bar p {
+        display: block;
+        position: relative;
+        top: 76px;
+
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .nav-bar input[type=text] {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .heart {
+        display: none;
+    }
+
+    .icon {
+        margin-left: 72%;
+        margin-top: -35
+    }
+
+    .png {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        height: 60vh;
+        border: 1px solid rgb(207, 229, 238);
+        background-color: rgb(207, 229, 238);
+        margin-top: 30px;
+    }
+
+    .discount {
+        margin-left: 25%;
+        margin-top: 20px;
+        display: block;
+        z-index: 1;
+    }
+
+    .discount h3 {
+        font-size: 35px;
+    }
+
+    .discount h1 {
+        font-size: 35px;
+        margin-top: 5px;
+    }
+
+    .discount p {
+        margin-top: 20px;
+    }
+
+    .discount a {
+        position: relative;
+        top: 10px;
+    }
+
+    .pic {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: space-evenly;
+    }
+
+    .img-1 img {
+        margin-bottom: 150px;
+    }
+
+    .img-2 img {
+        margin-bottom: 180px;
+    }
+
+    .img-3 img {
+        margin-bottom: 90px;
+    }
+
+    .text-2 {
+        position: relative;
+        top: -70px;
+    }
+
+    .text-1 {
+        position: relative;
+        top: -50px;
+    }
+
+    .card h1 {
+        font-size: 33px;
+        font-family: "Playfair Display", serif;
+        margin-left: 32%;
+    }
+
+    .table {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .star {
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+
+    .card-table p {
+        margin-left: 25%;
+    }
+
+    .card-table h4 {
+        margin-left: 32%;
+    }
+
+    .best img {
+        display: none;
+    }
+
+    .find {
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+
+    .find h1 {
+        font-size: 28px;
+    }
+
+    .find p {
+        color: gray;
+        font-size: 15px;
+    }
+
+    .shirt img {
+        display: none;
+    }
+
+    .denim img {
+        display: none;
+    }
+
+    .pant img {
+        display: none;
+    }
+
+    .pant a {
+        text-decoration: none;
+        border: 1px solid #2577FD;
+        background-color: #2577FD;
+        padding: 10px 30px;
+        border-radius: 50px;
+        color: white;
+        position: relative;
+        top: 20px;
+    }
+
+    .suit {
+        margin-left: 30%;
+        position: relative;
+        top: 20px;
+    }
+
+    .pant h1 {
+        font-size: 33px;
+    }
+
+    .winter {
+        margin-top: -70px;
+    }
+
+    .jacket {
+        margin-top: -70px;
+    }
+    .latest h1 {
+        font-size: 38px;
+    }
+    .here{
+        margin-left: 10%;
+        margin-top: -10px;
+    }
+    #text {
+        width: 55%;
+        padding: 12px;
+        border-radius: 50px;
+        border: 1px solid white;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 64%;
+        justify-content: space-evenly;
+    }
+    .image {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: space-evenly;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: space-around;
+    }
+    .face{
+        margin-left: 10%;
+        margin-top: 20px;
+     }
+}
+
+@media (max-width:424px) and (min-width:320px) {
+    .header {
+        border: 1px solid black;
+        background-color: black;
+        width: 95%;
+        height: 50px;
+        margin-left: 3%;
+        position: relative;
+        top: 73px;
+    }
+
+    .logo {
+        margin-top: -12px;
+        margin-left: 9%;
+    }
+
+    .header ul {
+        display: none;
+    }
+
+    .flag {
+        display: none;
+    }
+
+    .bar p {
+        display: block;
+        position: relative;
+        top: 76px;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+
+    .nav-bar input[type=text] {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .heart {
+        display: none;
+    }
+
+    .icon {
+        margin-left: 72%;
+        margin-top: -35px;
+    }
+
+    .png {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        height: 60vh;
+        border: 1px solid rgb(207, 229, 238);
+        background-color: rgb(207, 229, 238);
+        margin-top: 30px;
+    }
+
+    .discount {
+        margin-left: 18%;
+        margin-top: 60px;
+        display: block;
+        z-index: 1;
+    }
+
+    .discount h3 {
+        font-size: 35px;
+    }
+
+    .discount h1 {
+        font-size: 35px;
+        margin-top: 5px;
+    }
+
+    .discount p {
+        margin-top: 20px;
+    }
+
+    .discount a {
+        position: relative;
+        top: 10px;
+    }
+
+    .pic {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: space-evenly;
+    }
+
+    .img-1 img {
+        margin-bottom: 150px;
+    }
+
+    .img-2 img {
+        margin-bottom: 180px;
+    }
+
+    .img-3 img {
+        margin-bottom: 90px;
+    }
+
+    .card h1 {
+        font-size: 33px;
+        font-family: "Playfair Display", serif;
+        margin-left: 10%;
+    }
+
+    .text-1 h2 {
+        font-size: 22px;
+    }
+
+    .text-3 h2 {
+        font-size: 21px;
+    }
+
+    .text-2 h2 {
+        font-size: 21px;
+        margin-top: -20px;
+        font-family: "Playfair Display", serif;
+        margin-top: -8px;
+    }
+
+    .text-3 p {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 18px;
+        margin-top: -5px;
+    }
+
+    .text-1 p {
+        font-family: "Yellowtail", cursive;
+        color: #2577FD;
+        font-style: italic;
+        font-size: 18px;
+        margin-top: -5px;
+    }
+
+    .text-3 a {
+        text-decoration: none;
+        border: 1px solid gold;
+        background-color: gold;
+        padding: 5px;
+        color: black;
+        border-radius: 50px;
+    }
+
+    .text-1 a {
+        text-decoration: none;
+        border: 1px solid gold;
+        background-color: gold;
+        padding: 5px;
+        color: black;
+        border-radius: 50px;
+    }
+
+    .text-2 {
+        position: relative;
+        top: -70px;
+    }
+
+    .text-1 {
+        position: relative;
+        top: -50px;
+    }
+
+    .table {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .best img {
+        display: none;
+    }
+
+    .find {
+        margin-top: 100px;
+        margin-left: 10%;
+    }
+
+    .find h1 {
+        font-size: 30px;
+    }
+
+    .find p {
+        color: gray;
+        font-size: 15px;
+    }
+
+    .shirt img {
+        display: none;
+    }
+
+    .denim img {
+        display: none;
+    }
+
+    .pant img {
+        display: none;
+    }
+
+    .pant a {
+        text-decoration: none;
+        border: 1px solid #2577FD;
+        background-color: #2577FD;
+        padding: 10px 30px;
+        border-radius: 50px;
+        color: white;
+        position: relative;
+        top: 20px;
+    }
+
+    .collection {
+        margin-top: 200px;
+    }
+
+    .suit {
+        margin-left: 10%;
+        position: relative;
+        top: 20px;
+    }
+
+    .pant h1 {
+        font-size: 33px;
+    }
+
+    .winter {
+        margin-top: -70px;
+    }
+
+    .jacket {
+        margin-top: -20px;
+    }
+    .latest h1 {
+        font-size: 30px;
+    }
+    .latest p {
+        font-size: 20px;
+        color: gray;
+        margin-top: 10px;
+    }
+    .here{
+        margin-left: 10%;
+        margin-top: -10px;
+    }
+    #text {
+        width: 65%;
+        padding: 12px;
+        border-radius: 50px;
+        border: 1px solid white;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 64%;
+        justify-content: space-evenly;
+    }
+    .box h2 {
+        font-size: 19px;
+    }
+    .image {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        justify-content: space-around;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: space-around;
+    }
+    .face{
+        margin-left: 10%;
+        margin-top: 20px;
+     }
+}
